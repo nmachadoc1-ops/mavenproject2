@@ -18,7 +18,8 @@ public class Mavenproject2 {
         System.out.println("Ingrese valor del numerador: ");
          int n = Integer.parseInt(sc.nextLine());
          
-         System.out.println("Ingrese Operacion que desea realizar");
+         System.out.println("Ingrese el numero de la Operacion que desea realizar: 1.+ 2.- 3.* 4./");
+         int op= Integer.parseInt(sc.nextLine());
          
          
          System.out.println("Ingrese valor del denominador: ");
