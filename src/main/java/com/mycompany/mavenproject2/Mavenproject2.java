@@ -62,7 +62,9 @@ public class Mavenproject2 {
           }
           
           catch(OpcionIncorrecta e){
-              System.out.println("Solo se aceptan datos numericos .");
+              System.out.println("No se acepat ese tipo de operacion.");
           }
+          
+          
     }
 }
