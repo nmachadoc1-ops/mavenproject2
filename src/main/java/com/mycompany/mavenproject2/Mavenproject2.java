@@ -21,16 +21,19 @@ public class Mavenproject2 {
           try{
               
             System.out.println("Ingrese valor del numerador: ");
+           
              int n = Integer.parseInt(sc.nextLine());
+             
+             System.out.println("Ingrese valor del denominador: ");
+             
+             
+              int d = Integer.parseInt(sc.nextLine());
 
              System.out.println("Ingrese el numero de la Operacion que desea realizar: 1.+ 2.- 3.* 4./");
              int op= Integer.parseInt(sc.nextLine());
 
 
-             System.out.println("Ingrese valor del denominador: ");
-             
-             
-              int d = Integer.parseInt(sc.nextLine());
+            
              if(op==1){
                  int resultado=n+d;
                  System.out.println("El resultado es: " + resultado);
@@ -62,8 +65,10 @@ public class Mavenproject2 {
           }
           
           catch(OpcionIncorrecta e){
-              System.out.println("No se acepat ese tipo de operacion.");
-          }
+              System.out.println("No se acepta ese tipo de operacion.");
+          }finally {
+    sc.close();
+}
           
           
     }
