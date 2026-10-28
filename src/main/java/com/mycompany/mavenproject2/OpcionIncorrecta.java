@@ -8,6 +8,14 @@ package com.mycompany.mavenproject2;
  *
  * @author Estudiante
  */
-public class NewClass {
+public class OpcionIncorrecta extends Exception{
+    
+    private int opcion;
+
+    public OpcionIncorrecta(String message) {
+        super(message);
+    }
+    
+   
     
 }
